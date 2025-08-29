@@ -1,0 +1,45 @@
+{
+  "rpc": "https://testnet.dplabs-internal.com",
+  "chain_id": 688688,
+  "slippage": 0.005,
+
+  "tokens": {
+    "R2": {
+      "address": "0xb816bB88f836EA75Ca4071B46FF285f690C43bb7",
+      "decimals": 18
+    },
+    "USDC": {
+      "address": "0x8bebfcbe5468f146533c182df3dfbf5ff9be00e2",
+      "decimals": 6
+    },
+    "R2USD": {
+      "address": "0x4f5b54d4af2568cefafa73bb062e5d734b55aa05",
+      "decimals": 18
+    },
+    "sR2USD": {
+      "address": "0xf8694d25947a0097cb2cea2fc07b071bdf72e1f8",
+      "decimals": 6
+    },
+    "WBTC": {
+      "address": "0x4f5b54d4AF2568cefafA73bB062e5d734b55AA05",
+      "decimals": 8
+    }
+  },
+
+  "swap_routers": {
+    "r2_to_usdc": "0xeE567Fe1712Faf6149d80dA1E6934E354124CfE3",
+    "usdc_to_r2usd": "0x4f5b54d4af2568cefafa73bb062e5d734b55aa05"
+  },
+
+  "swap_amounts": {
+    "r2_to_usdc": "0.1",
+    "usdc_to_r2usd": "0.1"
+  },
+
+  "router_lp": {
+    "standard": "0xeE567Fe1712Faf6149d80dA1E6934E354124CfE3",
+    "matrix": "0x47d1B0623bB3E557bF8544C159c9ae51D091F8a2"
+  },
+
+  "staking_contract": "0xf8694d25947a0097cb2cea2fc07b071bdf72e1f8"
+}
