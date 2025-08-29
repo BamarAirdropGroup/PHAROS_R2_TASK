@@ -1,0 +1,5 @@
+web3==7.11.1
+python-dotenv==1.0.1
+eth-abi==5.1.0
+rich==13.9.4
+colorama==0.4.6
